@@ -1,0 +1,64 @@
+name: matjar_salla
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  smooth_page_indicator: ^1.1.0
+  flutter_otp_text_field: ^1.1.1
+  shared_preferences: ^2.0.15
+  dartz: ^0.10.1
+  lottie: ^2.6.0
+  awesome_dialog: ^3.1.0
+  http: ^1.0.0
+  carousel_slider: ^4.2.1
+  dio: ^5.1.1
+
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/shopping.png"
+  min_sdk_android: 21
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  fonts:
+    - family: IconBroken
+      fonts:
+        - asset: assets/icons/icons.ttf
+
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+          weight: 700
+
+    - family: Blinker
+      fonts:
+        - asset: assets/fonts/blinker/Blinker-ExtraLight.ttf
+        - asset: assets/fonts/blinker/Blinker-Light.ttf
+        - asset: assets/fonts/blinker/Blinker-Regular.ttf
+          weight: 700
